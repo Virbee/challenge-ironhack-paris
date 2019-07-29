@@ -1,0 +1,9 @@
+.all-celebrities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.celebrity-container {
+  margin: auto;
+}
