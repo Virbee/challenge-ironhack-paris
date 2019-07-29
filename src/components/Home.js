@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <h1>Home</h1>
       <p>
-        Hello, my name is ... and you are on my solution for the Ironhack
+        Hello, my name is Virginie and you are on my solution for the Ironhack
         challenge!
       </p>
     </div>
