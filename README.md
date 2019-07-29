@@ -2,6 +2,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can visit my solution here : http://blissful-turing-9eca0a.netlify.com/
 
+# Coding Challenge
+
+## Introduction
+This project was made for a Ironhack challenge. It's available online : http://blissful-turing-9eca0a.netlify.com/
+
+## Technologies used
+-Node.js
+-React bootsrapped whith Create React App
+-Axios
+-React router dom
+
+## How to execute the project
+
+Open a terminal and execute the following commands :
+```
+$git clone https://github.com/mc100s/coding-challenge-paris-july-2019
+$cd coding-challenge-paris
+$npm install
+$npm start
+```
+créer un .env pour stocker la clé API
+
 ## Available Scripts
 
 In the project directory, you can run:
