@@ -1,19 +1,21 @@
 import React from "react";
 import "./App.css";
-import { Switch, Route, Link } from "react-router-dom";
-import Home from "./Home";
+import { Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Temperature from "./components/Temperature";
+import Navbar from "./components/Navbar";
+import CustomizedImage from "./components/CustomizedImage";
+import Celebrities from "./components/Celebrities";
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/temperature">Temperature</Link>
-        <Link to="/customize-image">Customize Image</Link>
-        <Link to="/celebrities">Celebrities</Link>
-      </nav>
+      <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/temperature" component={Temperature} />
+        <Route path="/customize-image" component={CustomizedImage} />
+        <Route path="/celebrities" component={Celebrities} />
         <Route render={() => <h1>404</h1>} />
       </Switch>
     </div>

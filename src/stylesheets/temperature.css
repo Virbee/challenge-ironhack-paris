@@ -1,0 +1,22 @@
+.temperature-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.temperature-container h1 {
+  text-align: center;
+}
+
+.temperature-message {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.temperature-message img {
+  max-width: 40px;
+  height: auto;
+  margin-left: 10px;
+}

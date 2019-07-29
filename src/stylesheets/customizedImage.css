@@ -1,0 +1,14 @@
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.picture-container h1 {
+  text-align: center;
+}
+
+.pic-div {
+  align-self: center;
+}
